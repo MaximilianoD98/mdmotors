@@ -5,75 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shorcut icon" href="../img/logo.jpg">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 <body>
 
     <header>
-        <h1>Inicio - Bienvenido a MD Motors</h1>
-        <img src="../img/logo.jpg" alt="LogoMDAutos" height="300">   
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="../pages/productos.html"> Vehículos</a></li>
-                <li><a href="../pages/imagenes.html"> Nosotros</a></li>
-                <li><a href="../pages/info.html"> Financiación</a></li>
-                <li><a href="../pages/contacto.html"> Contacto</a></li>
-            </ul>
-        </nav>    
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo-navbar" src="../img/logo.jpg" alt="logomdmotors"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Vehículos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/imagenes.html">Nosotros</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/info.html">Financiación</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
     </header>
     
 
     <main>
-        <div>
-            <h2>¿Quiénes somos?</h2>
-            <p>Somos una comercializadora especializada en la compra y venta de vehículos multimarca, con el objetivo de traerle al cliente su mejor opción, respetando siempre una calidad indiscutida y brindándole una gran atención a sus requerimientos.  </p>
-        </div>
 
-    
+
         <div>
-            <h2>Nuestras redes:</h2>
-            <p> Instagram: md.motors <br> Twitter: md.motorstw <br> Facebook: MD Motors <br> Teléfono: 02320 455880 </p>
+            <span class="placeholder col-12"></span>
         </div>
-    
-    
-    
         <div>
-            <h2>¿Donde nos encontramos?</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52607.020375805645!2d-58.772181599999996!3d-34.50443645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc981b3f6c41cf%3A0x39d81df507812ac2!2sJos%C3%A9%20C.%20Paz%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1679520515006!5m2!1ses!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1 class="tituloc">Aquí podrá obtener toda la información y los datos de contacto sobre MD Motors, no dude en preguntar, es un gusto para nosotros.</h1>
         </div>
-    
-    
-        <form>
-            <h2>Dejanos tu consulta:</h2>
-            <fieldset>
-                <div>
-                    <input type="text" placeholder="Nombre">  <input type="text" placeholder="Apellido">
-                </div>
-    
-                <div>
-                    <input type="email" placeholder="Email">  <input type="text" placeholder="Celular">
-                </div> 
-                
-                <div>
-                    <textarea cols="40" rows="20" placeholder="Ingrese su consulta"></textarea>
-                </div>
-    
-                <div>
-                    <input type="button" value="Enviar">
-                </div>
-             </fieldset>
-        </form>    
+        <div>
+            <span class="placeholder col-12"></span>
+        </div>
+        <div class="contenedorc">
+            <div class="caja caja1">
+                <h2 class="servp">Servicio personalizado</h2>
+                <h3 class="com">Comunicate de Lunes a Viernes de 9 a 18:00hs y Sábados de 9 a 13:00hs.</h3>
+                <h4 class="direcc">Av. Lorem 1505 - José C. Paz, Buenos Aires</h4>
+                <h4 class="number">Teléfono: 02320-455880</h4>
+            </div>
+            <div class="caja caja2">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="correo">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="consulta">Ingrese su consulta aquí</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" class="btn">Enviar</button>
+                  </div>
+            </div>
+            <div class="caja caja3">
+                <h2 class="mapatitle">¿Donde nos encontramos?</h2>
+                <iframe class="mapac" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52607.020375805645!2d-58.772181599999996!3d-34.50443645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc981b3f6c41cf%3A0x39d81df507812ac2!2sJos%C3%A9%20C.%20Paz%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1679520515006!5m2!1ses!2sar" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </main>
-    
-
+    </div>
  
     <footer>
-        
-        <p>Información legal <br> Politicas de privacidad</p>
-        <p>Copyright 2023 - MD Motors.</p>
+        <div class="footer">
+            <div class="infofooter">
+                <p class="footerinfoitem">Av. Lorem 1505</p>
+                <p class="footerinfoitem">Jose C. Paz, Buenos Aires</p>
+            </div>
+            <div class="containerf">
+                    <p class="nuestrasredesfi">Nuestras redes:</p>
+                    <p class="instagramfi">Instagram: md.motors</p>
+                    <p class="twitterfi">Twitter: md.motors</p>
+                    <p class="facebookfi">Facebook: MD Motors</p>
+                    <p class="telefonofi">Teléfono: 02320-455880</p> 
+            </div>
+        </div>    
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

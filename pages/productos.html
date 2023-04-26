@@ -5,30 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vehículos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="shorcut icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
 
-
-    <header>
-        <h1>Inicio - Bienvenido a MD Motors</h1>
-        <img src="../img/logo.jpg" alt="LogoMDAutos" height="300">   
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio</a></li>
-                <li><a href="../pages/productos.html"> Vehículos</a></li>
-                <li><a href="../pages/imagenes.html"> Nosotros</a></li>
-                <li><a href="../pages/info.html"> Financiación</a></li>
-                <li><a href="../pages/contacto.html"> Contacto</a></li>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo-navbar" src="../img/logo.jpg" alt="logomdmotors"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html"">Vehículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/imagenes.html">Nosotros</a>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/info.html">Financiación</a>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>    
-    </header>
-   
+          </div>
+        </div>
+    </nav>
+  </header>
+
+
    <main>
+
+    <section>
+      <span class="placeholder col-12"></span>
+
+      <div>
+        <h2 class="titulo-productos">Aquí podrás encontrar nuestros vehículos en venta</h2>
+      </div>
+
+      <span class="placeholder col-12"></span>
+    
+
+    <section class="tarjetaP">
+      <div class="tarjetapv v1">
+          <img class="tarjeta_imagen" src="../img/Torino380.jpg" alt="torino380w">
+          <h4 class="tarjeta_titulo">Torino 380W</h4>
+          <h5>U$D: $18.000</h5>
+          <h6>1967 | KM: 15.300</h6>
+          <p class="tarjeta_parrafo">Tipo: Clásico.
+          </p>
+          <button class="tarjeta_boton">Ver más</button>
+      </div>
+      <div class="tarjetapv v2">
+          <img class="tarjeta_imagen" src="../img/camarogris.jpg" alt="camaro">
+          <h4 class="tarjeta_titulo">Chevrolet Camaro</h4>
+          <h5>U$D: $80.000</h5>
+          <h6>2018 | KM: 30.000</h6>
+          <p class="tarjeta_parrafo">Tipo: Deportivo.</p>
+          <button class="tarjeta_boton">Ver más</button>
+      </div>
+      <div class="tarjetapv v3">
+          <img class="tarjeta_imagen" src="../img/Raptor.webp" alt="fordraptor">
+          <h4 class="tarjeta_titulo">Ford Raptor F150</h4>
+          <h5>U$D: $100.000</h5>
+          <h6>2017 | KM: 7.000</h6>
+          <p class="tarjeta_parrafo">Tipo: Todoterreno.</p>
+          <button class="tarjeta_boton">Ver más</button>
+      </div>
+      <div class="tarjetapv v4">
+          <img class="tarjeta_imagen" src="../img/Corolla.webp" alt="toyotacorolla">
+          <h4 class="tarjeta_titulo">Toyota Corolla</h4>
+          <h5>U$D: $11.000</h5>
+          <h6>2014 | KM: 130.000</h6>
+          <p class="tarjeta_parrafo">Tipo: Sedán.</p>
+          <button class="tarjeta_boton">Ver más</button>
+      </div>
+      
+
+      <img class="wpp" src="../img/wp.png" alt="whatsapp">
+      <img class="ig" src="../img/ig.png" alt="instagram">
+
+  </section>
+
+    <span class="placeholder col-12"></span>
+
+
+<!-- 
         <section>
-            <h2>Aquí podrás encontrar nuestros vehículos en venta</h2>
+            <h2 class="titulo-productos">Aquí podrás encontrar nuestros vehículos en venta</h2>
                 <article>
                     <img src="../img/Torino380.jpg" alt="Torino380" height="400">
                 <p>Tipo: Clásico <br> Año: 1967 <br>Kilometraje: 15.300 <br>Valor: U$S 18.000 </p>
@@ -45,15 +117,31 @@
                     <img src="../img/Corolla.webp" alt="ToyotaCorolla" height="500">
                     <p>Tipo: Sedán <br> Año: 2014 <br>Kilometraje: 130.000 <br>Valor: U$S 11.000</p>    
                 </article>
-        </section>
+        </section> -->
     </main>
 
 
-    <footer> 
-        <p>Información legal <br> Politicas de privacidad</p>
-        <p>Copyright 2023 - MD Motors.</p>
-    </footer>
+    <footer>
+      <div class="footer">
+          <div class="infofooter">
+              <p class="footerinfoitem">Av. Lorem 1505</p>
+              <p class="footerinfoitem">Jose C. Paz, Buenos Aires</p>
+          </div>
+          <div class="containerf">
+                  <p class="nuestrasredesfi">Nuestras redes:</p>
+                  <p class="instagramfi">Instagram: md.motors</p>
+                  <p class="twitterfi">Twitter: md.motors</p>
+                  <p class="facebookfi">Facebook: MD Motors</p>
+                  <p class="telefonofi">Teléfono: 02320-455880</p> 
+          </div>
+          <div>
+              <p class="copyr">Información legal</p>
+              <p class="copyr"> Politicas de privacidad</p>
+              <p class="copyr">Copyright 2023 - MD Autos.</p>
+          </div>   
+      </div>    
+  </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
