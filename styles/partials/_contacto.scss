@@ -1,0 +1,110 @@
+.tituloc {
+    font-family: 'Michroma', 'sans-serif';
+    font-size: 1.7rem;
+    margin-block: 3rem;
+    text-align: center;
+    padding-inline: 20rem;
+}
+
+.contenedorc {
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    margin: 4rem;
+    margin-left: 20%;
+    margin-right: 20px;
+    margin-top: 7rem;
+    margin-bottom: 25rem;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 2fr 2fr 3fr 1fr;
+    grid-template-areas:
+        "caja1 caja2"
+        "caja1 caja2"
+        "caja3 caja3"
+        "caja3 caja3"
+        "caja3 caja3";
+
+        .caja {
+            border: solid 1px rgb(192, 173, 0);
+            margin: 1rem;
+            padding: 2rem;
+            height: 450px;
+        }
+        
+        .caja1 {
+            grid-area: caja1;
+            background-color: rgb(209, 209, 209);
+            padding-inline: 4rem;
+            font-family: 'Michroma', 'sans-serif';
+
+            .servp {
+                font-size: 15 0%;
+                margin-bottom: 3rem;
+                margin-top: 1rem;
+            }
+            
+            .com {
+                font-size: 100%;
+                margin-bottom: 3rem;
+                margin-top: 1rem;
+            }
+            
+            .direcc {
+                font-size: 100%;
+                margin-bottom: 3rem;
+                margin-top: 1rem;
+            }
+            
+            .number {
+                font-size: 100%;
+                margin-bottom: 3rem;
+                margin-top: 1rem;
+            }
+        }
+
+        .caja2 {
+            grid-area: caja2;
+            background-color: rgb(209, 209, 209);
+            font-family: 'Michroma', 'sans-serif';
+
+            .correo {
+                font-size: 100%;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+            
+            .consulta {
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+            
+            .btn {
+                height: 40px;
+                width: 110px;
+                margin-top: 1rem;
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+            }
+            
+            .btn:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+
+        .caja3 {
+            grid-area: caja3;
+            background-color: rgb(209, 209, 209);
+            display: flex;
+
+            .mapatitle {
+                padding: 3rem;
+                margin-top: 7rem;
+            }
+            
+            .mapac {
+                padding: 1rem;
+                margin-top: -5px;
+            }
+        }
+}

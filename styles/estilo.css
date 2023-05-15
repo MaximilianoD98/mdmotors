@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Michroma&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conceseparador .concesionario {
+  width: 100%;
+}
+.conceseparador .conce_titulo {
+  font-family: "Michroma", sans-serif;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.conceseparador .slogan {
+  font-family: "Michroma", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.conceseparador .novedades {
+  font-family: "Michroma", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: rgb(226, 226, 226);
+}
+
+.tarjetaS {
+  margin-top: 40px;
+  margin-left: 230px;
+  font-family: "Inter";
+}
+.tarjetaS .tarjeta {
+  background-color: rgb(187, 187, 187);
+  width: 300px;
+  height: 450px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-inline: 50px;
+  margin-block: 20px;
+  margin-left: 100px;
+  border: 2px solid rgb(255, 0, 0);
+}
+.tarjetaS .tarjeta .tarjeta_imagen {
+  width: 100%;
+}
+.tarjetaS .tarjeta .tarjeta_titulo {
+  font-size: 20px;
+}
+.tarjetaS .tarjeta .tarjeta_parrafo {
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.tarjetaS .tarjeta .tarjeta_boton {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+header .nav-item {
+  padding-inline: 4rem;
+  font-size: 130%;
+}
+header .logo-navbar {
+  width: 50%;
+  border: solid rgb(192, 173, 0);
+}
+
+.wpp {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  width: 50px;
+}
+
+.ig {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  width: 40px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: bottom;
+  margin-top: 100px;
+  padding-left: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .infofooter {
+  padding: 20px;
+  padding-top: 60px;
+  margin: 10px;
+  font-family: "Inter", "sans-serif";
+}
+.footer .containerf {
+  flex-direction: column;
+  margin-right: 130px;
+}
+.footer .containerf .nuestrasredesfi {
+  padding-block: 20px;
+  font-size: 20px;
+}
+.footer .containerf .instagramfi {
+  padding: 10px;
+}
+.footer .containerf .facebookfi {
+  padding: 10px;
+}
+.footer .containerf .twitterfi {
+  padding: 10px;
+}
+.footer .containerf .telefonofi {
+  padding: 10px;
+}
+
+.titulo-productos {
+  font-family: "Michroma", sans-serif;
+  font-size: 130%;
+  font-weight: 700;
+  padding: 2rem;
+  padding-block: 3rem;
+  margin-block: 2rem;
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+}
+
+.titulo-productos {
+  animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.containerc {
+  display: grid;
+  width: 800px;
+  height: 550px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
+  margin-bottom: 900px;
+  margin-top: 100px;
+  margin-left: 28%;
+}
+.containerc .card {
+  border: 1px solid gold;
+  margin: 30px;
+  padding: 10px;
+}
+.containerc .card:hover {
+  background-color: rgb(209, 209, 209);
+}
+.containerc .card1, .containerc .card6, .containerc .card5, .containerc .card4, .containerc .card3, .containerc .card2 {
+  grid-area: card1;
+  margin-right: 20px;
+  transition: all 1s;
+}
+.containerc .card1:hover, .containerc .card6:hover, .containerc .card5:hover, .containerc .card4:hover, .containerc .card3:hover, .containerc .card2:hover {
+  background-color: rgb(209, 209, 209);
+}
+.containerc .card1, .containerc .card6, .containerc .card5, .containerc .card4, .containerc .card3, .containerc .card2 {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+.containerc .card2 {
+  grid-area: card2;
+}
+.containerc .card3 {
+  grid-area: card3;
+}
+.containerc .card4 {
+  grid-area: card4;
+}
+.containerc .card5 {
+  grid-area: card5;
+}
+.containerc .card6 {
+  grid-area: card6;
+}
+
+.titulo-veh-example {
+  font-family: "Inter", "sans-serif";
+  font-size: 40px;
+  font-weight: 400;
+  margin-block: 20px;
+  padding-left: 40px;
+}
+.titulo-veh-example .text-veh-example {
+  font-family: "Inter", "sans-serif";
+  font-size: 25px;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.subtitle-veh-example {
+  padding-left: 30px;
+  margin-block: 40px;
+  display: block;
+  background-color: rgb(204, 204, 204);
+}
+
+.img-veh-example {
+  border: 2px solid rgb(192, 173, 0);
+  margin-left: 120px;
+}
+
+.financ-titulo {
+  margin-left: 50px;
+  padding-block: 30px;
+  font-family: "Inter", "sans-serif";
+  font-size: 200%;
+}
+
+.financ-text {
+  margin-left: 30px;
+  font-size: 20px;
+  margin-block: 50px;
+  padding-inline: 100px;
+}
+
+.f1 {
+  margin-top: 150px;
+}
+
+.f2 {
+  margin-bottom: 150px;
+}
+
+.img-financcards {
+  border: solid 4px rgb(192, 173, 0);
+  margin: 50px;
+  margin-left: 170px;
+  margin-top: 100px;
+}
+
+.tituloc {
+  font-family: "Michroma", "sans-serif";
+  font-size: 1.7rem;
+  margin-block: 3rem;
+  text-align: center;
+  padding-inline: 20rem;
+}
+
+.contenedorc {
+  width: 1000px;
+  height: 800px;
+  display: grid;
+  margin: 4rem;
+  margin-left: 20%;
+  margin-right: 20px;
+  margin-top: 7rem;
+  margin-bottom: 25rem;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 2fr 2fr 3fr 1fr;
+  grid-template-areas: "caja1 caja2" "caja1 caja2" "caja3 caja3" "caja3 caja3" "caja3 caja3";
+}
+.contenedorc .caja {
+  border: solid 1px rgb(192, 173, 0);
+  margin: 1rem;
+  padding: 2rem;
+  height: 450px;
+}
+.contenedorc .caja1 {
+  grid-area: caja1;
+  background-color: rgb(209, 209, 209);
+  padding-inline: 4rem;
+  font-family: "Michroma", "sans-serif";
+}
+.contenedorc .caja1 .servp {
+  font-size: 15 0%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.contenedorc .caja1 .com {
+  font-size: 100%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.contenedorc .caja1 .direcc {
+  font-size: 100%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.contenedorc .caja1 .number {
+  font-size: 100%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.contenedorc .caja2 {
+  grid-area: caja2;
+  background-color: rgb(209, 209, 209);
+  font-family: "Michroma", "sans-serif";
+}
+.contenedorc .caja2 .correo {
+  font-size: 100%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.contenedorc .caja2 .consulta {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.contenedorc .caja2 .btn {
+  height: 40px;
+  width: 110px;
+  margin-top: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.contenedorc .caja2 .btn:hover {
+  background-color: white;
+  color: black;
+}
+.contenedorc .caja3 {
+  grid-area: caja3;
+  background-color: rgb(209, 209, 209);
+  display: flex;
+}
+.contenedorc .caja3 .mapatitle {
+  padding: 3rem;
+  margin-top: 7rem;
+}
+.contenedorc .caja3 .mapac {
+  padding: 1rem;
+  margin-top: -5px;
+}
+
+@media screen and (max-width: 480px) {
+  .titulo-veh-example {
+    font-size: 170%;
+    text-align: center;
+    margin-left: -50px;
+  }
+  .text-veh-example {
+    margin-left: 10px;
+    font-size: 110%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .img-veh-example {
+    width: 450px;
+    height: 280px;
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-financcards {
+    margin-left: 25px;
+    width: 420px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .containerc {
+    display: grid;
+    width: 420px;
+    height: 200px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6";
+    margin-bottom: 170rem;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .containerc .card .tarjeta_imagenP {
+    height: 220px;
+    width: 330px;
+    padding: 10px;
+  }
+  .containerc .card1, .containerc .card2, .containerc .card3, .containerc .card4, .containerc .card5, .containerc .card6 {
+    grid-area: card1;
+    padding: 10px;
+  }
+  .containerc .card2 {
+    grid-area: card2;
+    padding: 10px;
+  }
+  .containerc .card3 {
+    grid-area: card3;
+    padding: 10px;
+  }
+  .containerc .card4 {
+    grid-area: card4;
+    padding: 10px;
+  }
+  .containerc .card5 {
+    grid-area: card5;
+    padding: 10px;
+  }
+  .containerc .card6 {
+    grid-area: card6;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tituloc {
+    font-family: "Michroma", "sans-serif";
+    font-size: 1rem;
+    margin-block: 3rem;
+    text-align: center;
+    padding-inline: 2rem;
+  }
+  .contenedorc {
+    width: 400px;
+    height: 500px;
+    display: grid;
+    margin: 1rem;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 5rem;
+    margin-bottom: 800px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "caja1" "caja2" "caja2" "caja3";
+  }
+  .contenedorc .caja {
+    border: solid 1px rgb(192, 173, 0);
+    margin: 1rem;
+    padding: 1rem;
+    height: 300px;
+    width: 390px;
+  }
+  .contenedorc .caja1 {
+    grid-area: caja1;
+    background-color: rgb(209, 209, 209);
+    padding-inline: 2rem;
+    font-family: "Michroma", "sans-serif";
+    height: 400px;
+  }
+  .contenedorc .caja1 .servp {
+    font-size: 15 0%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+  .contenedorc .caja1 .com {
+    font-size: 100%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+  .contenedorc .caja1 .direcc {
+    font-size: 100%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+  .contenedorc .caja1 .number {
+    font-size: 100%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+  .contenedorc .caja2 {
+    grid-area: caja2;
+    background-color: rgb(209, 209, 209);
+    font-family: "Michroma", "sans-serif";
+    height: 450px;
+  }
+  .contenedorc .caja2 .correo {
+    font-size: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .contenedorc .caja2 .consulta {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .contenedorc .caja2 .btn {
+    height: 40px;
+    width: 110px;
+    margin-top: 1rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .contenedorc .caja2 .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .contenedorc .caja3 {
+    grid-area: caja3;
+    background-color: rgb(209, 209, 209);
+    display: grid;
+  }
+  .contenedorc .caja3 .mapatitle {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .contenedorc .caja3 .mapac {
+    padding: 1px;
+    margin-top: -5px;
+    height: 200px;
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .conceseparador .concesionario {
+    width: 100%;
+  }
+  .conceseparador .conce_titulo {
+    font-family: "Michroma", sans-serif;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+  .conceseparador .slogan {
+    font-family: "Michroma", sans-serif;
+    text-align: center;
+    font-size: 20px;
+  }
+  .conceseparador .novedades {
+    font-family: "Michroma", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(226, 226, 226);
+  }
+  .tarjetaS {
+    margin-top: 40px;
+    margin-left: -65px;
+    font-family: "Inter";
+  }
+  .tarjetaS .tarjeta {
+    background-color: rgb(187, 187, 187);
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-inline: 20px;
+    margin-block: 20px;
+    margin-left: 100px;
+    border: 2px solid red;
+  }
+  .tarjetaS .tarjeta .tarjeta_imagen {
+    width: 100%;
+  }
+  .tarjetaS .tarjeta .tarjeta_titulo {
+    font-size: 20px;
+  }
+  .tarjetaS .tarjeta .tarjeta_parrafo {
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .tarjetaS .tarjeta .tarjeta_boton {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=estilo.css.map */
