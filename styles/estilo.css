@@ -15,6 +15,7 @@
   margin-bottom: -10px;
   text-align: center;
   margin-top: 120px;
+  background-color: rgb(235, 235, 235);
 }
 .conceseparador .conce_titulo {
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -226,8 +227,10 @@ body {
   font-weight: 400;
   margin-block: 20px;
   padding-left: 40px;
+  padding-block: 20px;
   margin-top: 140px;
   margin-bottom: -80px;
+  background-color: rgb(235, 235, 235);
 }
 
 .titulo-veh-example {
@@ -263,12 +266,13 @@ body {
 }
 
 .financ-titulo {
-  margin-left: 50px;
+  padding-left: 50px;
   padding-block: 30px;
   font-family: "Inter", "sans-serif";
   font-size: 200%;
   margin-top: 140px;
   margin-bottom: -80px;
+  background-color: rgb(235, 235, 235);
 }
 
 .financ-titulo {
@@ -313,6 +317,8 @@ body {
   padding-inline: 20rem;
   margin-top: 140px;
   margin-bottom: -80px;
+  background-color: rgb(235, 235, 235);
+  padding-block: 20px;
 }
 
 .tituloc {
@@ -485,6 +491,10 @@ body {
     margin-block: 3rem;
     text-align: center;
     padding-inline: 2rem;
+    margin-top: 150px;
+    margin-bottom: -80px;
+    background-color: rgb(235, 235, 235);
+    padding-block: 20px;
   }
   .contenedorc {
     width: 400px;
@@ -584,10 +594,11 @@ body {
   }
   .conceseparador .conce_titulo {
     font-family: "Michroma", sans-serif;
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 40px;
+    margin-top: 120px;
     margin-bottom: -10px;
     text-align: center;
+    background-color: rgb(235, 235, 235);
   }
   .conceseparador .slogan {
     font-family: "Michroma", sans-serif;
