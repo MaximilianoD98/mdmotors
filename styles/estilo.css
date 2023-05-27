@@ -14,11 +14,24 @@
   margin-top: 20px;
   margin-bottom: -10px;
   text-align: center;
+  margin-top: 120px;
+}
+.conceseparador .conce_titulo {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
 }
 .conceseparador .slogan {
   font-family: "Michroma", sans-serif;
   text-align: center;
   font-size: 20px;
+  margin-top: -70px;
 }
 .conceseparador .novedades {
   font-family: "Michroma", sans-serif;
@@ -135,24 +148,24 @@ body {
   font-weight: 700;
   padding: 2rem;
   padding-block: 3rem;
-  margin-block: 2rem;
+  margin-top: 130px;
+  margin-bottom: -80px;
   background-color: rgb(235, 235, 235);
   text-align: center;
 }
 
 .titulo-productos {
-  animation: slide-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-@keyframes slide-in-top {
+@keyframes slide-top {
   0% {
-    transform: translateY(-1000px);
-    opacity: 0;
+    transform: translateY(0);
   }
   100% {
-    transform: translateY(0);
-    opacity: 1;
+    transform: translateY(-100px);
   }
 }
+
 .containerc {
   display: grid;
   width: 800px;
@@ -213,8 +226,23 @@ body {
   font-weight: 400;
   margin-block: 20px;
   padding-left: 40px;
+  margin-top: 140px;
+  margin-bottom: -80px;
 }
-.titulo-veh-example .text-veh-example {
+
+.titulo-veh-example {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+.text-veh-example {
   font-family: "Inter", "sans-serif";
   font-size: 25px;
   padding-left: 50px;
@@ -239,6 +267,20 @@ body {
   padding-block: 30px;
   font-family: "Inter", "sans-serif";
   font-size: 200%;
+  margin-top: 140px;
+  margin-bottom: -80px;
+}
+
+.financ-titulo {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
 }
 
 .financ-text {
@@ -269,6 +311,20 @@ body {
   margin-block: 3rem;
   text-align: center;
   padding-inline: 20rem;
+  margin-top: 140px;
+  margin-bottom: -80px;
+}
+
+.tituloc {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
 }
 
 .contenedorc {
